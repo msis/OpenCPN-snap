@@ -15,7 +15,6 @@ apps:
   opencpn:
     command: desktop-launch opencpn
     plugs: [network, network-bind, home, opengl, x11]
-    desktop: gui/opencpn.desktop
     environment:
       WX_OPENCPN_DATA_DIR: $SNAP/usr/share/opencpn/
 
