@@ -32,7 +32,7 @@ parts:
       - wx-common
       - libwxgtk3.0-dev
       - libglu1-mesa-dev
-      - libgtk-3-dev
+      - libgtk2.0-dev
       - wx3.0-headers
       - libbz2-dev
       - libtinyxml-dev
@@ -40,6 +40,6 @@ parts:
       - libexpat1-dev
       - libcairo2-dev
     after:
-      - desktop-gtk3
+      - desktop-gtk2
     organize:
       snap/opencpn/current/usr : usr/
