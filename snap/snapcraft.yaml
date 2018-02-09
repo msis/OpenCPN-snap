@@ -24,7 +24,7 @@ parts:
     source: https://github.com/OpenCPN/OpenCPN.git
     source-type: git
     source-depth: 1
-    source-tag: 4.8.2
+    source-tag: v4.8.2
     configflags:
       - -DCMAKE_INSTALL_PREFIX=/snap/opencpn/current/usr
       - -DBUNDLE_DOCS=ON
